@@ -64,6 +64,8 @@ nix-shell
 cd plutus-playground-server
 plutus-playground-server
 ```
+sometimes the server will not start at first try. try again, second start should work!
+
 13 wait until server is started! you will see something like this
 ```console
 [nix-shell:~/Documents/Source/plutus-apps/plutus-playground-server]$ plutus-playground-server
