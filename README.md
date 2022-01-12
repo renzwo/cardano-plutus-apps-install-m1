@@ -1,15 +1,6 @@
 # cardano-plutus-apps-install-m1
-I was able to get nix and plutus apps running on mac m1 thanks to
 
-https://cardano.stackexchange.com/questions/6287/lessons-learned-setting-up-plutus-playground-feedback-welcome
-
-and
-
-https://github.com/Til-D/cardano-plutus/blob/main/README.md
-
-and
-
-https://docs.plutus-community.com/docs/setup/MacOS.html.
+## The Plutus Core build is not included yet. Im working on it!
 
 ## Step by step
 
