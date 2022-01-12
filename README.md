@@ -28,6 +28,11 @@ extra-sandbox-paths = /System/Library/Frameworks /System/Library/PrivateFramewor
 experimental-features = nix-command
 extra-experimental-features = flakes
 ```
+if this does produce an error in step 9, plz also insert these lines
+```console
+system = x86_64-darwin
+extra-platforms = x86_64-darwin aarch64-darwin
+```
 5 restart mac
 6 clone the right repository! not the ...plutus one, it needs to be the ...plutus-apps repo:
 ```console
