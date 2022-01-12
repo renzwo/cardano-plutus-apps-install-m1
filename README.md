@@ -11,6 +11,7 @@
 sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
 ```
 2 restart terminal
+
 3
 ```console
 sudo nano /etc/nix/nix.conf
@@ -90,5 +91,6 @@ npm run start
 ```
 17 wait until client has started! will take some time.
 
-TODO client fails because of errors.
+TODO client still fails because of errors.
+
 should work: https://localhost:8009/ 
