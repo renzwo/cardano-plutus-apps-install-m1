@@ -1,5 +1,12 @@
 # cardano-plutus-apps-install-m1
 
+some useful infos:
+https://cardano.stackexchange.com/questions/6287/lessons-learned-setting-up-plutus-playground-feedback-welcome
+
+https://docs.plutus-community.com/docs/setup/MacOS.html (do not use the "plutus" repo! instead use "plutus-apps")
+
+For Intel Macs: https://github.com/Til-D/cardano-plutus
+
 
 ## not finished yet, see discord
 
