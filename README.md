@@ -1,5 +1,9 @@
 # cardano-plutus-apps-install-m1
 
+
+## not finished yet, see discord
+
+
 ## Step by step
 
 1
