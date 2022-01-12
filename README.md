@@ -93,4 +93,5 @@ npm run start
 ```
 17 wait until client has started! will take some time.
 
-18 finished. goto https://localhost:8009/ 
+TODO client fails because of errors.
+should work: https://localhost:8009/ 
