@@ -1,7 +1,5 @@
 # cardano-plutus-apps-install-m1
 
-## The Plutus Core build is not included yet. Im working on it!
-
 ## Step by step
 
 1
@@ -23,7 +21,7 @@ trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
 system = x86_64-darwin
 extra-platforms = x86_64-darwin aarch64-darwin
 
-sandbox = true
+sandbox = false
 extra-sandbox-paths = /System/Library/Frameworks /System/Library/PrivateFrameworks /usr/lib /private/tmp /private/var/tmp /usr/bin/env
 experimental-features = nix-command
 extra-experimental-features = flakes
