@@ -34,6 +34,7 @@ system = x86_64-darwin
 extra-platforms = x86_64-darwin aarch64-darwin
 ```
 5 restart mac
+
 6 clone the right repository! not the ...plutus one, it needs to be the ...plutus-apps repo:
 ```console
 git clone https://github.com/input-output-hk/plutus-apps
