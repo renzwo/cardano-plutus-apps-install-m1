@@ -119,3 +119,6 @@ nano webpack.config.js
 and change the "https" flag from "true" to "false".
 
 thats it, but not needed. the url from now on would be http://localhost:8009
+
+to uninstall nix in case it gets too big on your harddrive, follow
+https://gist.github.com/kintsugi/47e5e9f9d7c3a3a2f6004b6271365f8c 
