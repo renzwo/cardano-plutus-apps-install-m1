@@ -95,10 +95,10 @@ nix-shell
 ```console
 sudo npm install -g npm
 ```
-16 goto client dir and start client
+16 goto client dir and start client (yes, with the GC thing in front)
 ```console
 cd plutus-playground-client
-npm run start
+GC_DONT_GC=1 npm run start
 ```
 17 wait until client has started! will take some time. same here as above: if there are errors be sure to try at least a second build!
 
