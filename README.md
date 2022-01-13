@@ -11,13 +11,13 @@ And finalised thanks to @nrkramer Nolan Kramer!
 
 ## Step by step
 
-1
+1 download the nix package manager and install it
 ```console
 sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
 ```
 2 restart terminal
 
-3
+3 open the nix config file
 ```console
 sudo nano /etc/nix/nix.conf
 ```
@@ -46,7 +46,7 @@ git clone https://github.com/input-output-hk/plutus-apps
 ```console
 cd plutus-apps/
 ```
-8 no checkout of commits needed, just use the master branch as it is
+8 no checkout of commits needed, just use the master branch for now
 
 9 build the server
 ```console
