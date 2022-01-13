@@ -71,7 +71,7 @@ nix-shell
 12 goto server dir and start server
 ```console
 cd plutus-playground-server
-plutus-playground-server
+GC_DONT_GC=1 plutus-playground-server
 ```
 sometimes the server will not start at first try. try again, second start should work!
 
