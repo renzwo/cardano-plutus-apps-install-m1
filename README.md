@@ -48,10 +48,8 @@ git clone https://github.com/input-output-hk/plutus-apps
 ```console
 cd plutus-apps/
 ```
-8 checkout latest commit (plz update for yourself)
-```console
-git checkout 7f53f18dfc788bf6aa929f47d840efa1247e11fd
-```
+8 no checkout of commits needed, just use the master branch as it is
+
 9 build the server
 ```console
 nix-build -A plutus-playground.server
@@ -68,16 +66,15 @@ same here, if there are errors during build, just call the command again.
 ```console
 nix-shell
 ```
-12 goto server dir and start server
+12 goto server dir and start server (yes, with the GC thing in front)
 ```console
 cd plutus-playground-server
-plutus-playground-server
+GC_DONT_GC=1 plutus-playground-server
 ```
 sometimes the server will not start at first try. try again, second start should work!
 
 13 wait until server is started! you will see something like this
 ```console
-[nix-shell:~/Documents/Source/plutus-apps/plutus-playground-server]$ plutus-playground-server
 plutus-playground-server: for development use only
 [Info] Running: (Nothing,Webserver {_port = 8080, _maxInterpretationTime = 80s})
 Initializing Context
@@ -100,7 +97,12 @@ sudo npm install -g npm
 cd plutus-playground-client
 GC_DONT_GC=1 npm run start
 ```
-17 wait until client has started! will take some time. same here as above: if there are errors be sure to try at least a second build!
+17 wait until client has started and you see something like this
+```console
+webpack compiled with 1 warning
+ℹ ｢wdm｣: Compiled with warnings.
+```
+will take some time. same here as above: if there are errors be sure to try at least a second build!
 
 TODO client still fails because of errors.
 
