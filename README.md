@@ -56,10 +56,14 @@ git checkout 7f53f18dfc788bf6aa929f47d840efa1247e11fd
 ```console
 nix-build -A plutus-playground.server
 ```
+IMPORTANT: if there occurs a segfault, just build it again, it will work.
+
 10 build the client
 ```console
 nix-build -A plutus-playground.client
 ```
+same here, if there are errors during build, just call the command again.
+
 11 start nix shell (takes some time)
 ```console
 nix-shell
@@ -96,7 +100,7 @@ sudo npm install -g npm
 cd plutus-playground-client
 npm run start
 ```
-17 wait until client has started! will take some time.
+17 wait until client has started! will take some time. same here as above: if there are errors be sure to try at least a second build!
 
 TODO client still fails because of errors.
 
