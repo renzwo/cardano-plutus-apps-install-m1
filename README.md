@@ -7,7 +7,7 @@ https://docs.plutus-community.com/docs/setup/MacOS.html (do not use the "plutus"
 
 For Intel Macs: https://github.com/Til-D/cardano-plutus
 
-And finalised thanks to @Nolan Kramer!
+And finalised thanks to @nrkramer Nolan Kramer!
 
 ## Step by step
 
@@ -112,3 +112,8 @@ GC_DONT_GC=1 plutus-playground-server -i 150s
 
 both should work now, client with https cert security warning in your browser: https://localhost:8009/
 
+wanna fix the certificate error in your browser? in plutus-playground-client folder do
+```console
+nano webpack.config.js
+```
+and change the "https" flag from "true" to "false". thats it, but not needed.
