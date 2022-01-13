@@ -94,10 +94,8 @@ sudo npm install -g npm
 16 goto client dir and start client
 ```console
 cd plutus-playground-client
-npm run start
+GC_DONT_GC=1 npm run start
 ```
 17 wait until client has started! will take some time.
-
-TODO client still fails because of errors.
 
 should work: https://localhost:8009/ 
