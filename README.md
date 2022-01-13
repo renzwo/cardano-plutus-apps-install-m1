@@ -120,5 +120,14 @@ and change the "https" flag from "true" to "false".
 
 thats it, but not needed. the url from now on would be http://localhost:8009
 
-to uninstall nix in case it gets too big on your harddrive, follow
+
+
+to make some space on your harddrive without deleting nix - if you do not use nix for a while:
+
+https://www.reddit.com/r/NixOS/comments/mndp6a/garbage_collection/
+
+https://nixos.org/guides/nix-pills/garbage-collector.html
+
+
+or to uninstall nix if you prefere solidity :D (god sees everything):
 https://gist.github.com/kintsugi/47e5e9f9d7c3a3a2f6004b6271365f8c 
