@@ -116,4 +116,6 @@ wanna fix the certificate error in your browser? in plutus-playground-client fol
 ```console
 nano webpack.config.js
 ```
-and change the "https" flag from "true" to "false". thats it, but not needed.
+and change the "https" flag from "true" to "false".
+
+thats it, but not needed. the url from now on would be http://localhost:8009
