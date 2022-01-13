@@ -104,6 +104,13 @@ webpack compiled with 1 warning
 ```
 will take some time. same here as above: if there are errors be sure to try at least a second build!
 
-TODO client still fails because of errors.
+if the client takes to long it could be that it runs in timeout which is default 80 seconds.
 
-should work: https://localhost:8009/ 
+to prevent this and change the timeout to 150 seconds eg, you can start the server with an option like this:
+```console
+GC_DONT_GC=1 plutus-playground-server -i 150s
+```
+
+
+both should work now, client with https cert security warning in your browser: https://localhost:8009/
+
