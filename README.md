@@ -7,10 +7,6 @@ https://docs.plutus-community.com/docs/setup/MacOS.html (do not use the "plutus"
 
 For Intel Macs: https://github.com/Til-D/cardano-plutus
 
-
-## not finished yet, see discord
-
-
 ## Step by step
 
 1
