@@ -129,5 +129,5 @@ https://www.reddit.com/r/NixOS/comments/mndp6a/garbage_collection/
 https://nixos.org/guides/nix-pills/garbage-collector.html
 
 
-or to uninstall nix if you prefere solidity :D (god sees everything):
-https://gist.github.com/kintsugi/47e5e9f9d7c3a3a2f6004b6271365f8c 
+or to uninstall nix, maybe you want to reinstall after macOS update?
+
