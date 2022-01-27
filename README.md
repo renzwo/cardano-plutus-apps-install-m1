@@ -130,5 +130,7 @@ https://nixos.org/guides/nix-pills/garbage-collector.html
 
 
 or to uninstall nix, maybe you want to reinstall after macOS update?
+
 Use https://github.com/renzwo/cardano-plutus-apps-install-m1/blob/main/uninstall-nix-osx.sh 
+
 Do a "chmod 777 uninstall-nix-osx.sh" before using it with "sudo".
